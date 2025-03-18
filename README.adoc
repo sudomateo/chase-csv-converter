@@ -1,0 +1,16 @@
+= Chase CSV Converter
+
+Convert Chase checking and credit card CSVs to a standard CSV format for finances.
+
+== Usage
+
+Ensure you have a `checking.csv` and `credit-card.csv` in your current working directory.
+
+Run the program and output its result to a file.
+
+[source,sh]
+----
+cargo run > output.csv
+----
+
+Do whatever sorting, filtering, processing you'd like!

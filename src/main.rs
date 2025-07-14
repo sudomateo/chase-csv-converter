@@ -4,7 +4,7 @@ use serde::Deserialize;
 
 fn main() {
     if let Err(err) = run() {
-        println!("{}", err);
+        eprintln!("{}", err);
         process::exit(1);
     }
 }
